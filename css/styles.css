@@ -1,0 +1,239 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section1 {
+  background-color: #c8e4fe;
+  color: #fff;
+}
+
+.colored-section2 {
+  background-color: #badfdb;
+  color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Image */
+#logo {
+  border-radius: 50%;
+  padding-top: 10px;
+  width: 50%;
+  position: absolute;
+  right: 20%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+
+h3 {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+
+/* Education Section */
+#headline {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+#education {
+  text-align: center;
+  margin-bottom: 2%;
+
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+
+/* Employment Section */
+#employment {
+  text-align: center;
+  margin-bottom: 2%;
+
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 25%;
+  border-radius: 100%;
+  margin: 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Skills Section */
+#skills {
+  padding: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.skills_column {
+  padding: 3% 2%;
+}
+
+
+h4{
+  color:#000000
+}
+
+
+
+/* Quick Facts Section */
+#quick_facts {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2% 0% 2%;
+}
+
+.quick_facts_h3 {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+
+.quick_facts_p {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2.5;
+}
+
+
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 1% 0% 2%;
+}
+
+.p-footer {
+  font-weight: 550;
+  font-size: 1rem;
+}
+
+.footer-icon {
+  margin: 0 5px 0;
+}
+
+.footer-linkedin {
+  color: #0077B5;
+}
+
+.footer-twitter {
+  color: #1da1f2;
+}
+
+.footer-facebook {
+  color: #3b5998;
+}
+
+.footer-instagram {
+  color: #8a3ab9;
+}
+
+
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  #logo  {
+    position: static;
+
+  }
+
+  #title{
+
+  }
+
+  .download-button {
+    font-size: 90%;
+  }
+}
