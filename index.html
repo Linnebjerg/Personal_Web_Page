@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title> Mikkel Linnebjerg Pedersen - Personal Site </title>
+
+  <link rel="icon" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- NOTE: In order to make the 'Hamburger Menu' work correctly
+  with Bootstrap version 4.3.1, the JavaScript an JQuery below is needed.
+  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- A script for use of 'Font Awesome' -->
+  <script src="https://kit.fontawesome.com/6bc0dfc867.js"></script>
+
+</head>
+
+<body>
+
+  <section class="colored-section1" id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""> Mikkel Linnebjerg Pedersen <span class="fab fa-gitkraken"> </span> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#employment"> Employment History </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#education"> Educational Background </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#footer"> Contact </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1> Welcome to my personal webpage. Please, have a look around! </h1>
+          <!-- A quick note on using 'Font Awesome' and Icons. When using the website and copying the style from it, the code will
+          contain an 'i' selector/glyph. In terms of best coding practices, this is not the best way to code an icon. This is because
+          the 'i' glyph is primarily used as in 'italic' glyph. However, it's still viable to use the 'i' and the code will run fine.
+          In order to use the best coding practice, use a <span> element instead. The result will function the same way as an 'i'-->
+        </div>
+        <div class="col-6">
+
+          <img id="logo" src="images/my_img1.jpg" alt="title_pic">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+
+  <section class="colored-section2" id="quick_facts">
+
+    <h3 class="quick_facts_h3">Here's a few quick facts about me:</h3>
+
+      <p class="quick_facts_p">I'm a freakishly huge fan of American Football - Especially the Pittsburgh Steelers.</p>
+      <p class="quick_facts_p">I love to learn new stuff and gain knowledege of things that interest me.</p>
+      <p class="quick_facts_p">I've always had a love for Computer and console games.</p>
+      <p class="quick_facts_p">My favourit animal is the Penguin - Owls are a strong second!</p>
+
+  </section>
+
+  <!-- Employment -->
+  <section class="colored-section1" id="employment">
+
+
+    <h1 id="headline">Employment History:</h1>
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2><strong>Support Office Assistant</strong> at <strong>føtex Support Office</strong> </h2>
+          <img class="testimonial-image" src="images/img_foetex.jpg" alt="foetex_img">
+          <em>January, 2020 - Current</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Support Office Assistant</strong> at <strong>Bilka Support Office</strong> </h2>
+          <img class="testimonial-image" src="images/img_bilka.jpg" alt="bilka_img">
+          <em>December, 2018 - December 2019</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Student Assistant</strong> at <strong>Bilka Support Office</strong> </h2>
+          <img class="testimonial-image" src="images/img_bilka.jpg" alt="bilka_img">
+          <em>September, 2018 - December, 2018</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Support Office Assistant</strong> at <strong>Bilka Support Office</strong> </h2>
+          <img class="testimonial-image" src="images/img_bilka.jpg" alt="bilka_img">
+          <em>May, 2018 - September, 2018</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Office Apprentice, specialized in Communication and Administration</strong> at <strong>føtex Support Office</strong> </h2>
+          <img class="testimonial-image" src="images/img_foetex.jpg" alt="foetex_img">
+          <em>April, 2016 - May, 2018</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Student Assistant</strong> <em>at</em> <strong>føtex Support Office</strong> </h2>
+          <img class="testimonial-image" src="images/img_foetex.jpg" alt="foetex_img">
+          <em>January, 2016 - April, 2016</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Examination Controller</strong> at <strong>Moment Students</strong> </h2>
+          <img class="testimonial-image" src="images/img_moment.jpg" alt="moment_img">
+          <em>May, 2015 - August, 2015</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Store Employee</strong> at <strong>Fakta A/S</strong> </h2>
+          <img class="testimonial-image" src="images/img_fakta.jpg" alt="fakta_img">
+          <em>October, 2011 - August, 2012</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Education -->
+  <section class="colored-section2" id="education">
+      <h1 id="headline">Educational Background:</h1>
+
+    <div id="testimonial-carousel1" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2><strong>AP Degree in Information Technology</strong> at <strong>Aarhus Business Academy</strong> </h2>
+          <img class="testimonial-image" src="images/img_business.jpg" alt="aarhus_business_academy_img">
+          <em>September, 2019 - December 2021</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Master in IT-Design and Application Development <em>(Unfinished)</em> </strong> at <strong>Aalborg University</strong> </h2>
+          <img class="testimonial-image" src="images/img_aalborg.jpg" alt="aalborg_university_img">
+          <em>September, 2018 - December, 2018</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong>Master in Business Language and International Business Communication <em>(Unfinished)</em> </strong> at <strong>Aarhus</strong> </h2>
+          <img class="testimonial-image" src="images/img_aarhus.jpg" alt="aarhus_university_img">
+          <em>Septemeber, 2015 - December, 2015</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2><strong> BA in International Business Communication, English and European Studies </strong> at <strong>Aarhus University</strong> </h2>
+          <img class="testimonial-image" src="images/img_aarhus.jpg" alt="aarhus_university_img">
+          <em>Septemeber, 2012 - August, 2015</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel1" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel1" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="colored-section1" id="footer">
+
+    <a class="footer-icon footer-linkedid" href="https://www.linkedin.com/in/mikkellinnebjerg"> <span class="fab fa-linkedin fa-2x"> </span> </a>
+    <a class="footer-icon footer-facebook" href="https://github.com/Linnebjerg"> <span class="fab fa-github-square fa-2x"> </span> </a>
+    <a class="footer-icon footer-twitter" href="https://twitter.com/Linne91"> <span class="fab fa-twitter-square fa-2x"> </span> </a>
+    <a class="footer-icon footer-facebook" href="https://www.facebook.com/mikkel.l.pedersen"> <span class="fab fa-facebook-square fa-2x"> </span> </a>
+    <a class="footer-icon footer-facebook" href="mailto:mikkel.linnebjerg@gmail.com"> <span class="fas fa-envelope fa-2x"> </span> </a>
+
+    <p class="p-footer">© Copyright, 2019, Mikkel Linnebjerg Pedersen</p>
+
+  </footer>
+
+</body>
+
+</html>
